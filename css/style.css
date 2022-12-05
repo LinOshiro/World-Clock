@@ -1,12 +1,13 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url("https://i.pinimg.com/564x/d2/87/ab/d287ab2e623cd539fece6b2b360eb828.jpg");
+  background-size: cover;
   font-family: sans-serif;
 }
 
 h1 {
   text-align: center;
   font-family: sans-serif;
-  font-size: 36px;
+  font-size: 40px;
 }
 
 h2 {
@@ -17,15 +18,17 @@ h2 {
 select {
   display: block;
   width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  font-size: 18px;
+  padding: 18px;
+  border-radius: 50px;
+  font-size: 25px;
+  background: #f9f9fc;
+  color: #284a60;
 }
 
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: #f9f9fc;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
@@ -35,7 +38,7 @@ select {
   display: flex;
   margin: 20px 0;
   justify-content: space-between;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.8);
   padding: 30px 0;
 }
 
@@ -58,8 +61,20 @@ select {
   vertical-align: middle;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(211, 98, 242);
+}
+
+a:hover {
+  color: purple;
+}
+
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(240, 237, 237, 0.8);
 }
